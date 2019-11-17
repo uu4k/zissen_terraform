@@ -32,6 +32,6 @@ output "iam_role_arn" {
   value = "${aws_iam_role.default.arn}"
 }
 
-output "aim_role_name" {
+output "iam" {
   value = "${aws_iam_role.default.name}"
 }
