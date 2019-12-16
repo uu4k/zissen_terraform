@@ -260,7 +260,7 @@ data "aws_iam_policy_document" "codepipeline" {
       "ecs:ListTasks",
       "ecs:RegisterTaskDefinition",
       "ecs:UpdateService",
-      "ima:PassRole"
+      "iam:PassRole"
     ]
   }
 }
